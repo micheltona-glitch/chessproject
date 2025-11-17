@@ -62,7 +62,7 @@ def main():
         draw_pieces(SCREEN, board, images)
         pygame.display.flip()
 
-    pygame.quit()
+    pygame.quit(res)
 
 
 
